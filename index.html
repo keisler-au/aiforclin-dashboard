@@ -113,8 +113,7 @@
         .links-container {
             display: flex;
             flex-direction: column;
-            gap: 1.25rem;
-            margin-bottom: 3.75rem;
+            align-items: center;
         }
 
         .link-button {
@@ -178,10 +177,13 @@
             line-height: 1.5;
         }
 
-        .footer {
+        .section-border {
             border-top: 1px solid var(--border-color);
             padding-top: 2.5rem;
             margin-top: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
         }
 
         .footer-content {
@@ -340,44 +342,47 @@
         </header>
 
         <main class="links-container">
-            <a href="https://comparisons.aiforclin.com/" 
-               class="link-button" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               aria-label="AI Scribe Comparison Table - Compare features and pricing of AI scribe solutions">
-                <h2 class="link-title">AI Scribe Comparison Table</h2>
-                <p class="link-description">Compare features, pricing, and capabilities of leading AI scribe solutions for clinical documentation</p>
-            </a>
+            <div><a href="https://speaker.aiforclin.com/#pricing" target="_blank" rel="noopener noreferrer" aria-label="Book a Consultation" class="social-link">Book a Consultation</a></div>
+            <div class="section-border">
+                <a href="https://comparisons.aiforclin.com/" 
+                class="link-button" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="AI Scribe Comparison Table - Compare features and pricing of AI scribe solutions">
+                    <h2 class="link-title">AI Scribe Comparison Table</h2>
+                    <p class="link-description">Compare features, pricing, and capabilities of leading AI scribe solutions for clinical documentation</p>
+                </a>
 
-            <a href="https://compliance.aiforclin.com/" 
-               class="link-button" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               aria-label="AI Compliance Pack - Essential compliance resources and templates">
-                <h2 class="link-title">AI Compliance Pack</h2>
-                <p class="link-description">Essential compliance resources, templates, and guidelines for responsible AI implementation</p>
-            </a>
+                <a href="https://compliance.aiforclin.com/" 
+                class="link-button" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="AI Compliance Pack - Essential compliance resources and templates">
+                    <h2 class="link-title">AI Compliance Pack</h2>
+                    <p class="link-description">Essential compliance resources, templates, and guidelines for responsible AI implementation</p>
+                </a>
 
-            <a href="https://standards.aiforclin.com/" 
-               class="link-button" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               aria-label="AI Standards - Industry standards and best practices for healthcare AI">
-                <h2 class="link-title">AI Standards</h2>
-                <p class="link-description">Industry standards, best practices, and regulatory frameworks for AI in healthcare</p>
-            </a>
+                <a href="https://standards.aiforclin.com/" 
+                class="link-button" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="AI Standards - Industry standards and best practices for healthcare AI">
+                    <h2 class="link-title">AI Standards</h2>
+                    <p class="link-description">Industry standards, best practices, and regulatory frameworks for AI in healthcare</p>
+                </a>
 
-            <a href="https://speaker.aiforclin.com/" 
-               class="link-button" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               aria-label="AI Consultant & Speaker - Professional consulting and speaking services">
-                <h2 class="link-title">AI Consultant &amp; Speaker</h2>
-                <p class="link-description">Professional consulting services, speaking engagements, and expert guidance for AI adoption</p>
-            </a>
+                <a href="https://speaker.aiforclin.com/" 
+                class="link-button" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="AI Consultant & Speaker - Professional consulting and speaking services">
+                    <h2 class="link-title">AI Consultant &amp; Speaker</h2>
+                    <p class="link-description">Professional consulting services, speaking engagements, and expert guidance for AI adoption</p>
+                </a>
+            </div>
         </main>
 
-        <footer class="footer">
+        <footer class="section-border">
             <div class="footer-content">
                 <address class="contact-info">
                     <p>Contact: <a href="mailto:david@psychologysquared.com.au" class="contact-link">david@psychologysquared.com.au</a></p>
