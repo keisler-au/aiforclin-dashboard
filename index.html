@@ -213,6 +213,27 @@
             outline-offset: 2px;
         }
 
+        .book-now {
+            border: 2px solid var(--primary-gold);
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: var(--transition);
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.8rem 1.6rem;
+            background: var(--primary-gold);
+            color: var(--navy-deepest);
+        }
+
+        .book-now:hover,
+        .book-now:focus {
+            background: rgba(212, 175, 55, 0.1);
+            border-color: var(--primary-gold);
+            color: var(--gold-light);
+            outline: none;
+        }
+
         .social-links {
             display: flex;
             gap: 1.25rem;
@@ -342,7 +363,7 @@
         </header>
 
         <main class="links-container">
-            <div><a href="https://speaker.aiforclin.com/#pricing" target="_blank" rel="noopener noreferrer" aria-label="Book a Consultation" class="social-link">Book a Consultation</a></div>
+            <div><a href="https://speaker.aiforclin.com/#pricing" target="_blank" rel="noopener noreferrer" aria-label="Book a Consultation" class="book-now">Book Now</a></div>
             <div class="section-border">
                 <a href="https://comparisons.aiforclin.com/" 
                 class="link-button" 
